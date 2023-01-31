@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./video.css">
+    <link rel="stylesheet" href="./style/style1.css">
+    <link rel="stylesheet" href="./style/style2.css">
+    <script src="https://kit.fontawesome.com/79a77fb731.js" crossorigin=""></script>
+    
+</head>
+
+<body>
+
+    <div class="preloader hidden"></div>
+    <header class="header hidden">
+        <nav class="navbar">
+        <div class="container">
+            <div class="left">
+                <a href="index.html"><img src="./assetss/icons/logo.png.webp" alt=""></a>
+            </div>
+            <div class="right">
+                <a href="index.html">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">PAGES <i class="fa-solid fa-angle-down"></i> </a>
+                <a href="#">OUR PRODUCT</a>
+                <a href="#">FARMING PRACTICES</a>
+                <a href="#">NEWS</a>
+                <a href="#">CONTACT</a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i> </a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="logins.html"><i class="fa-regular fa-user"></i></a>
+
+            </div>
+        </div>
+    </nav>
+    <form class="animate__animated animate__fadeInLeft fermat hidden" id="forma" action=""><input type="search" name="search" id="search" placeholder="Type keywords & press enter...">
+        <div class="colseIcon">
+            <i class="fa fa-times kaset" aria-hidden="true"></i>
+        </div>
+        </form>
+    <div class="container2">
+        <div class="c-video">
+            <video class="video"
+                src="./assetss/video/bingo - nursery rhymes - kids songs - baby videos - 3d rhymes by Farmees.mp4"></video>
+            <div class="controls">
+               
+                <div class="orange-bar">
+                    <div class="orange-juice"></div>
+                </div>
+                <div class="buttons">
+                    <button class="button1"  id="play-pause"></button>
+                </div>
+                <div class="buttons2">
+                    <button class="controls__button" data-skip="-10" >« 10s</button>
+                    <button class="controls__button card" data-skip="10" >10s »</button>
+                </div>
+         <label for=""><input id="volume" type="range"></label>
+         <a id="full"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+            </div>
+        </div>
+    </div> 
+    </header>
+   
+    <script src="./video.js"></script>
+    <script src="./preloader.js"></script>
+</body>
+
+</html>

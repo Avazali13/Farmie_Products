@@ -1,0 +1,198 @@
+/*# sourceMappingURL=login.css.map */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  .preloader{
+    margin-top: 15% !important;
+  }
+  .image{
+    width: 100%;
+    height: 721px;
+    opacity: 0.9;
+  }
+  .fermat{
+    top: 12% !important;
+  }
+  body {
+    font-family: "Karla", sans-serif;
+  }
+  /* .kaset{
+    position: absolute;
+    top: 33%;
+    right:12px;
+    cursor: pointer;
+  
+  }
+  .fer{
+  animation-delay: 1s;
+  }
+  #forma {
+    position:absolute;
+    right: 13%;
+    top: 50%;
+    z-index: 1;
+    width: 500px;
+    height: 50px;
+    border: none;
+    }
+    #forma input{
+      outline: none;
+    }
+    
+  
+  #search{
+      width: 100%;
+      height: 50px;
+      border-radius: 0;
+      border: none;
+      padding: 15px;
+      font-size: 12px;
+      font-style: italic;
+  } */
+
+  body {
+  position: absolute;
+  color: #ddd;
+  width: 100%;
+
+}
+.navbar {
+    background-color: #fff;
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+  }
+  
+  .right {
+    display: flex;
+    -moz-column-gap: 22px;
+         column-gap: 22px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 80px;
+    margin: 0 auto;
+  }
+  .container a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #303030;
+    transition-duration: 500ms;
+  }
+  .container a:hover {
+    color: #77b122;
+  }
+
+  .container {
+    padding: 16px;
+  }
+  .containers{
+    width: 20%;
+    margin: 0 auto;
+    position: absolute;
+    height: 32.5%;
+    left: 40%;
+    top:16%;
+    background-color: transparent;
+    z-index: 1;
+
+    
+
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    /* margin: 5px 0 22px 0; */
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+
+  .registerbtn {
+    background-color:#77b122;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
+
+  a {
+    color: dodgerblue;
+  }
+  
+
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  small{
+    display: block;
+    color: red;
+    margin-bottom: 10px;
+
+  }
+
+  label{
+margin-top: 8px;
+    display: block;
+  }
+
+  .mainbuttons{
+    width: 20%;
+    margin: 0 auto;
+    position: absolute;
+    left: 45%;
+    top:13%;
+   
+  }
+
+  .mainbuttons button{
+    width: 85px;
+    cursor: pointer;
+    background-color: #77b122;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding:8px 0px;
+  }
+
+  .mainbuttons button:hover{
+    background-color: #303030;
+    transition: 0.9s;
+  }
+  .mainbuttons #regbtn{
+    border: 2px solid white;
+  }

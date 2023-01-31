@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, orange 60%, cyan);
+}
+
+.hidden {
+  display: none;
+}
+
+.fermat {
+  top: 11% !important;
+}
+
+.video {
+  width: 100%;
+}
+
+.c-video {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  overflow: hidden;
+}
+
+.c-video:hover .controls {
+  transform: translateY(0);
+}
+
+.controls {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #77b122;
+  transform: translateY(100%) translateY(-5px);
+  transition: all 0.3s;
+}
+
+.buttons {
+  padding: 10px;
+}
+
+.buttons button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.buttons button:before {
+  content: "\f144";
+  font-family: "Font Awesome 5 Free";
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 28px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.buttons button.play:before {
+  content: "\f144";
+}
+
+.buttons button.pause:before {
+  content: "\f28b";
+}
+
+.controls__button {
+  padding: 3px 7px;
+  position: absolute;
+  top: 47%;
+}
+
+.card {
+  position: absolute;
+  left: 13%;
+}
+
+.buttons2 button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.orange-bar {
+  height: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.orange-juice {
+  height: 10px;
+  background-color: orangered;
+}
+
+.navbar {
+  background-color: #fff;
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+}
+.navbar .right {
+  display: flex;
+  -moz-column-gap: 22px;
+  column-gap: 22px;
+}
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  height: 80px;
+  margin: 0 auto;
+}
+.navbar a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #303030;
+  transition-duration: 500ms;
+}
+.navbar a:hover {
+  color: #77b122;
+}
+
+#full {
+  padding: 12px;
+  position: absolute;
+  right: 5px;
+  top: 13px;
+  background-color: #fff;
+  cursor: pointer;
+}
+#full:hover {
+  color: #fff;
+  background-color: #303030;
+  transition: 0.7s;
+  border-radius: 50px;
+}
+
+#volume {
+  cursor: pointer;
+}/*# sourceMappingURL=video.css.map */
